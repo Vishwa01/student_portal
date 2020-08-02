@@ -11,7 +11,7 @@ function App() {
 
     <div>
       <header className="App-header">
-        <FirstScreen />
+
         <SecondScreen />
       </header>
     </div>

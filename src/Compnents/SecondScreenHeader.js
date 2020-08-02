@@ -6,6 +6,7 @@ import { IconButton } from '@material-ui/core';
 const SecondScreenHeader = () => {
     return (
         < div >
+
             <Navbar color="light" light  >
                 <IconButton>
                     <ArrowBack />
@@ -17,8 +18,7 @@ const SecondScreenHeader = () => {
                     <Search />
                 </IconButton>
             </Navbar>
-            <Navbar color="light" light  >
-
+            <Navbar color="light" light >
                 <div className="container">
                     <div className="row">
                         <div className="col-4">
@@ -31,6 +31,7 @@ const SecondScreenHeader = () => {
                     </div>
                 </div>
             </Navbar>
+
         </div >
     );
 }
