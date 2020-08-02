@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FirstScreen from './Compnents/screen1';
+import SecondScreen from './Compnents/screen2';
+import 'reactstrap/dist/reactstrap.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
+  console.log("app called");
   return (
-    <div className="App">
+
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FirstScreen />
+        <SecondScreen />
       </header>
     </div>
+
   );
 }
 
