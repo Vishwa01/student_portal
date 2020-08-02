@@ -6,7 +6,6 @@ import { IconButton } from '@material-ui/core';
 const SecondScreenHeader = () => {
     return (
         < div >
-
             <Navbar color="light" light  >
                 <IconButton>
                     <ArrowBack />
