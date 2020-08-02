@@ -20,7 +20,7 @@ export const submittedlist = [{ name: "kUdit Savner", date: "2 aug", phone: "959
 { name: "Udit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" }, { name: "kUdit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" },
 { name: "Udit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" }, { name: "kUdit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" },
 { name: "Udit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" }, { name: "kUdit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" },
-{ name: "Udit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" }]
+{ name: "Udit Savner", date: "3 aug", phone: "9594950101", time: "11:30 AM" }]
 
 export const notsubmittedlist = [{ name: "lUdit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" },
 { name: "Udit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" }, { name: "lUdit Savner", date: "2 aug", phone: "9594950101", time: "11:30 AM" },
