@@ -9,7 +9,7 @@ const SecondScreenBody = (props) => {
                 <ListGroup style={{ width: "100%" }}>
                     {
                         props.payload.map((item) =>
-                            <div style={{ borderBottom: "0.5px solid lightgrey" }} >
+                            <div key={toString(item) + 1} style={{ borderBottom: "0.5px solid lightgrey" }} >
                                 <div className="row mt-2"  >
                                     <div className="col-8">
                                         <h6>{item.name}</h6>
